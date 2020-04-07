@@ -60,9 +60,3 @@ def graph_acceleration(df_):
 def write_excel(df_):
     """we are creating new output file """
     df_.to_excel("output.xlsx")
-def open_text():
-    """Here we are working on file handling"""
-    file = open('article.txt', 'a')
-    file.write("\n this is line 1")
-    file.write("\n This function will add new line after the main file")
-    file.close()
