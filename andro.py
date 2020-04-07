@@ -1,7 +1,6 @@
 """Here we are doing various computations on Androsense data."""
 import pandas as pd
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 
 
 def read_excel():
